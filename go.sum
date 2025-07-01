@@ -24,6 +24,8 @@ github.com/stretchr/testify v1.8.4 h1:CcVxjf3Q8PM0mHUKJCdn+eZZtm5yQwehR5yeSVQQcU
 github.com/stretchr/testify v1.8.4/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXlSw2iwfAo=
 github.com/watarui-go-cqrs/pb v0.0.0-20250629125214-62a4bc3fb89d h1:Mnch60SVpQ1TQABBqn2rQYqurDpqGswS0tvQfvTEQJ8=
 github.com/watarui-go-cqrs/pb v0.0.0-20250629125214-62a4bc3fb89d/go.mod h1:U6hpjFsoSaui/VRravVov6ylKeqs1+8msZNgUOCb33s=
+github.com/watarui-go-cqrs/pb v0.0.1 h1:tpTM+Pkik/iQ5V78AXdJ9+/Ah6jUFL6SdNQTSt9ANK8=
+github.com/watarui-go-cqrs/pb v0.0.1/go.mod h1:U6hpjFsoSaui/VRravVov6ylKeqs1+8msZNgUOCb33s=
 go.opentelemetry.io/auto/sdk v1.1.0 h1:cH53jehLUN6UFLY71z+NDOiNJqDdPRaXzTel0sJySYA=
 go.opentelemetry.io/auto/sdk v1.1.0/go.mod h1:3wSPjt5PWp2RhlCcmmOial7AvC4DQqZb7a7wCow3W8A=
 go.opentelemetry.io/otel v1.35.0 h1:xKWKPxrxB6OtMCbmMY021CqC45J+3Onta9MqjhnusiQ=

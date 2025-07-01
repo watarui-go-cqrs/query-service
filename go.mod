@@ -4,7 +4,7 @@ go 1.24.4
 
 require (
 	github.com/go-sql-driver/mysql v1.9.3
-	github.com/watarui-go-cqrs/pb v0.0.0-20250629125214-62a4bc3fb89d
+	github.com/watarui-go-cqrs/pb v0.0.1
 	go.uber.org/fx v1.24.0
 	google.golang.org/grpc v1.73.0
 	google.golang.org/protobuf v1.36.6

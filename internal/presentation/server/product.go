@@ -22,6 +22,20 @@ func NewProductServer(repository products.ProductRepository, builder builder.Res
 	}
 }
 
+func (s *productServer) ListStream(param *emptypb.Empty, stream pb.ProductQuery_ListStreamServer) error {
+	results, err := s.repository.List(context.Background())
+	if err != nil {
+		return err
+	}
+	products := s.builder.BuildProductsResult(results)
+	for _, product := range products.GetProducts() {
+		if err := stream.Send(product); err != nil {
+			return err
+		}
+	}
+	return nil
+}
+
 func (s *productServer) List(ctx context.Context, param *emptypb.Empty) (*pb.ProductsResult, error) {
 	products, err := s.repository.List(ctx)
 	if err != nil {
