@@ -23,8 +23,8 @@ func chainUnaryInterceptor(ctx context.Context, req interface{}, info *grpc.Unar
 }
 
 func createCreds() credentials.TransportCredentials {
-	certFile := "internal/presentation/prepare/queryservice.pem"
-	keyFile := "internal/presentation/prepare/queryservice-key.pem"
+	certFile := "certs/queryservice.pem"
+	keyFile := "certs/queryservice-key.pem"
 
 	cert, err := os.ReadFile(certFile)
 	if err != nil {
